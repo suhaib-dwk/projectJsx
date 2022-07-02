@@ -1,0 +1,136 @@
+.main-login {
+  min-height: 100vh;
+  min-width: 100vm;
+  overflow-x: hidden;
+  background: linear-gradient(to right, rgb(197, 193, 193) 50%, #f5b47f 50%);
+}
+.login-contain {
+  height: 75vh;
+  width: 70%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(236, 236, 236, 0.7),
+    rgba(236, 236, 236, 0.3)
+  );
+  border-radius: 1rem;
+  margin: 2rem auto;
+  box-shadow: 0.5rem 0.5rem 2rem -1rem rgb(58, 57, 57);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+}
+.left-side,
+.right-side {
+  margin: 2rem 2rem;
+  box-shadow: 0.5rem 0.5rem 2rem -1rem rgb(58, 57, 57);
+  height: 80%;
+  width: 100%;
+  border-radius: 1rem;
+}
+.left-side {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+}
+input {
+  display: block;
+  border: none;
+  height: 2rem;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 1.5rem;
+  padding: 0.2rem 1rem;
+  color: gray;
+  border-radius: 0.75rem;
+  transition: all 0.1s ease-in-out;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+}
+
+input:hover {
+  outline: 0.5px solid #fac295;
+  box-shadow: 2px 2px 9px -1px #fac295;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin: auto;
+  width: 70%;
+  font-size: small;
+  color: gray;
+  margin-bottom: 0.5rem;
+}
+
+#sub-butt {
+  width: 168px;
+  background: #f5b47f;
+  color: white;
+  border: none;
+  border-radius: 0.9rem;
+  cursor: pointer;
+  margin: auto;
+  padding: 1.2rem 1rem;
+  /* margin-left: 31%; */
+  position: relative;
+  transition: all 0.5s ease;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#sub-butt:hover {
+  box-shadow: 0.5px 0.5px 6px -1px gray;
+  transform: translateY(-5px);
+}
+
+#img-id {
+  height: 100%;
+  object-fit: cover;
+  margin-left: 43%;
+  height: 5rem;
+  width: 5rem;
+  margin-top: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.link {
+  text-decoration: none;
+  color: #f5b47f;
+}
+
+#tx {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+}
+
+#desgin-img {
+  height: 120%;
+  width: 110%;
+
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -2rem;
+}
